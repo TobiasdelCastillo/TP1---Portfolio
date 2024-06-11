@@ -12,8 +12,8 @@ body{
     font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/* ///////////////////////////////////////////////////////////////////////// */
-                                  /* HEADER */
+/* ///////////////////HEADER//////////////////////////////////////// */
+
 header{
     display: flex;
     background-color: #F2F2F2;
@@ -50,8 +50,21 @@ nav a:hover{
     border-bottom: 2px solid #E1A038;
 }
 
-/* /////////////////////////////////////////////////////////////////////// */
+/* //////////////////HERO/////////////////////////////////////////// */
 
-main{
-    background-color: rebeccapurple;
+.hero{
+    display: flex;
+    flex-direction: column;
+    background-image: url(https://hireline.io/blog/wp-content/uploads/2022/07/habilidades-de-un-programador-950x500.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content:center;
+}
+
+.hero img{
+    border-radius: 100%;
+    height: 150px;
+    width: 150px;
 }
