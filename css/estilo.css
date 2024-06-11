@@ -8,10 +8,50 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    font-size: 16px;
+    font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+/* ///////////////////////////////////////////////////////////////////////// */
+                                  /* HEADER */
 header{
     display: flex;
-    background-color: bisque;
+    background-color: #F2F2F2;
     width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    padding: 30px 80px 30px 80px;
+}
+
+.lh{
+    color: #FF8700;
+}
+
+.buttoms{
+    margin-right: 80px;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #515151;
+    margin: 18px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+nav a:hover{
+    color: #E1A038;
+    border-bottom: 2px solid #E1A038;
+}
+
+/* /////////////////////////////////////////////////////////////////////// */
+
+main{
+    background-color: rebeccapurple;
 }
