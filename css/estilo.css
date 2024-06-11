@@ -23,11 +23,12 @@ header{
 }
 
 .logo{
-    padding: 30px 80px 30px 80px;
+    padding: 30px 90px 30px 90px;
 }
 
-.lh{
-    color: #FF8700;
+.logo h3{
+    color: #ff8a00;
+    font-size: 1.4em;
 }
 
 .buttoms{
@@ -36,18 +37,19 @@ header{
 
 nav a{
     text-decoration: none;
-    font-size: 16px;
+    font-size: 0.95em;
     font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #515151;
-    margin: 18px;
-    padding-bottom: 10px;
-    font-weight: bold;
-    transition: 0.5s;
+    color: #555555;
+    letter-spacing: 0.06em;
+    font-weight: 545;
+    margin: 16px;
+    padding-bottom: 0.55em;
+    transition: 0.3s;
 }
 
 nav a:hover{
-    color: #E1A038;
-    border-bottom: 2px solid #E1A038;
+    color: #ff8a00;
+    border-bottom: 2px solid #ff8a00;
 }
 
 /* //////////////////HERO/////////////////////////////////////////// */
@@ -55,16 +57,33 @@ nav a:hover{
 .hero{
     display: flex;
     flex-direction: column;
-    background-image: url(https://hireline.io/blog/wp-content/uploads/2022/07/habilidades-de-un-programador-950x500.jpg);
+    background-image: linear-gradient(rgba(0,0,0, 0.7),rgba(0,0,0, 0.8)),url(https://hireline.io/blog/wp-content/uploads/2022/07/habilidades-de-un-programador-950x500.jpg);
     background-size: cover;
-    height: 100vh;
+    height: 1000px;
     width: 100%;
     align-items: center;
-    justify-content:center;
+    justify-content: center;
+
 }
 
 .hero img{
     border-radius: 100%;
     height: 150px;
     width: 150px;
+}
+
+.hero h1{
+    color: #F68906;
+}
+
+.hero h2{
+    color: #eeeeee;
+    font-size: 16px;
+}
+
+.logos img{
+    color: #ffffff;
+    margin: 5px;
+    width: 28px;
+    height: 28px;
 }
