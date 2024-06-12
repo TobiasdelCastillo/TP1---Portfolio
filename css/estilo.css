@@ -3,6 +3,9 @@
     margin: 0;
 }
 
+@import url('https://fonts.cdnfonts.com/css/corporative-alt?styles=53252,53268');
+
+
 body{
     display: flex;
     flex-direction: column;
@@ -252,6 +255,7 @@ nav a:hover{
     padding-top: 0px;
     font-size: 1.2em;
     width: 680px;
+    
 }
 
 .services .item{
@@ -283,3 +287,90 @@ nav a:hover{
 }
 
 /* ////////////CONTACT//////////////////////////////////////////// */
+
+.contact{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 140px 0 110px 0;
+}
+
+.contact .izq{
+    width: 450px;
+    height: 400px;
+}
+
+.contact h2{
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #ff8a00;
+}
+
+.contact p{
+    margin-bottom: 50px;
+    line-height: 1.4;
+    font-size: 1em;
+    color: #555555;
+
+}
+
+.contact img{
+    width: 26.5px;
+    height: 26.5px;
+    margin: 0 7px;
+}
+
+.contact form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding-right: 60px;
+}
+
+.contact input{
+    font-size: 0.9em;
+    height: 35px;
+    width: 450px;
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+
+.contact textarea{
+    width: 422px;
+    height: 200px;
+    margin-bottom: 30px;
+    padding: 25px 29px 25px 21px;
+}
+
+.contact .fin{
+    width: 474px;
+    height: 45px;
+    background-color: #ff8a00;
+    color: #F2F2F2;
+    font-weight: bold;
+    border: none;
+    font-size: 0.98em;
+}
+
+a i{
+    font-size: 30px;
+    color: #555555;
+    margin: 10px;
+}
+
+/* /////////////FOOTER//////////////////////////////////////////// */
+
+footer{
+    background-color: #0F0E0E;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+}
+footer h3{
+    color: #ffffff;
+    font-weight: lighter;
+    font-size: 1.1em;
+}
