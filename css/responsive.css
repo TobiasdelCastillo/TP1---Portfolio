@@ -1,0 +1,102 @@
+@media(max-width:320px){
+
+    body{
+        width: 100%;
+    }
+
+    header .logo{
+        padding: 0;
+    }
+    header .buttoms{
+        margin: 0;
+    }
+
+    main{
+        width: 100%;
+    }
+
+    /* .hero h2{
+        text-align: center;
+    } */
+
+    .about{
+        width: 100%;
+    }
+    .about div{
+        width: 100%;
+        padding: 0;
+    }
+    .about img{
+        display: none;
+    }
+    .about div .contenido{
+        padding: 0px;
+    }
+
+    .skills{
+        width: 100%;
+        padding: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skills .content2{
+        width: 100%;
+    }
+    .skills .content2 h3{
+        font-size: 1em;
+    }
+
+    .skills .content{
+        width: 100%;
+    }
+
+    /* //////////////////////////// */
+
+
+    .services p{
+        width: 100%;
+    }
+
+    .services .item{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .contact{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .contact .izq{
+        width: 100%;
+        margin: 0;
+    }
+    .contact .der{
+        width: 100%;
+        padding: 0;
+        align-items: center;
+    }
+    .contact form{
+        width: 98%;
+        padding: 0;
+
+    }
+    .contact input{
+        width: 98%;
+        padding: 0;
+
+    }
+    .contact textarea{
+        width: 98%;
+        padding: 0;
+    }
+
+    .contact .fin{
+        width: 98%;
+        padding: 0;
+    }
+}
+
