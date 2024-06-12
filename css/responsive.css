@@ -99,4 +99,282 @@
         padding: 0;
     }
 }
+@media(min-width:321px) and (max-width:480px){
+    body{
+        width: 100%;
+    }
+    header{
+        width: 100%;
+    }
+    main{
+        width: 100%;
+    }
+    .about img{
+        display: none;
+    }
+    .skills{
+        width: 100%;
+    }
+    .services{
+        width: 100%;
+    }
+    .contact{
+        width: 100%;
+    }
+    header .buttoms{
+        margin: 0;
+    }
+    .skills{
+        width: 100%;
+        padding: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+    .skills .content2{
+        width: 100%;
+    }
+    .skills .content2 h3{
+        font-size: 1em;
+    }
 
+    .skills .content{
+        width: 100%;
+    }
+    .services p{
+        width: 100%;
+    }
+
+    .services .item{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .contact{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .contact .izq{
+        width: 100%;
+        margin: 0;
+    }
+    .contact .der{
+        width: 100%;
+        padding: 0;
+        align-items: center;
+    }
+    .contact form{
+        width: 98%;
+        padding: 0;
+
+    }
+    .contact input{
+        width: 98%;
+        padding: 0;
+
+    }
+    .contact textarea{
+        width: 98%;
+        padding: 0;
+    }
+
+    .contact .fin{
+        width: 98%;
+        padding: 0;
+    }
+
+
+}
+@media(min-width:481px) and (max-width:768px){
+    body{
+        width: 100%;
+    }
+    header{
+        width: 100%;
+    }
+    main{
+        width: 100%;
+    }
+    .about img{
+        display: none;
+    }
+    .skills{
+        width: 100%;
+    }
+    .services{
+        width: 100%;
+    }
+    .contact{
+        width: 100%;
+    }
+    header .buttoms{
+        margin: 0;
+    }
+    .skills{
+        width: 100%;
+        padding: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+    .skills .content2{
+        width: 100%;
+    }
+    .skills .content2 h3{
+        font-size: 1em;
+    }
+
+    .skills .content{
+        width: 100%;
+    }
+    .services p{
+        width: 100%;
+    }
+
+    .services .item{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .contact{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .contact .izq{
+        width: 100%;
+        margin: 0;
+    }
+    .contact .der{
+        width: 100%;
+        padding: 0;
+        align-items: center;
+    }
+    .contact form{
+        width: 98%;
+        padding: 0;
+
+    }
+    .contact input{
+        width: 98%;
+        padding: 0;
+
+    }
+    .contact textarea{
+        width: 98%;
+        padding: 0;
+    }
+
+    .contact .fin{
+        width: 98%;
+        padding: 0;
+    }
+
+
+}
+
+@media(min-width:769px) and (max-width:1024px){
+    body{
+        width: 100%;
+    }
+    header{
+        width: 100%;
+    }
+    main{
+        width: 100%;
+    }
+
+    .skills{
+        width: 100%;
+    }
+    .services{
+        width: 100%;
+    }
+    .contact{
+        width: 100%;
+    }
+    header .buttoms{
+        margin: 0;
+    }
+    .skills{
+        width: 100%;
+        padding: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+    .skills .content2{
+        width: 100%;
+    }
+    .skills .content2 h3{
+        font-size: 1em;
+    }
+
+    .skills .content{
+        width: 100%;
+    }
+    .services p{
+        width: 100%;
+    }
+
+    .services .item{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .contact{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .contact .izq{
+        width: 100%;
+        margin: 0;
+    }
+    .contact .der{
+        width: 100%;
+        padding: 0;
+        align-items: center;
+    }
+    .contact form{
+        width: 98%;
+        padding: 0;
+
+    }
+    .contact input{
+        width: 98%;
+        padding: 0;
+
+    }
+    .contact textarea{
+        width: 98%;
+        padding: 0;
+    }
+
+    .contact .fin{
+        width: 98%;
+        padding: 0;
+    }
+
+
+}
+
+@media (min-width:1025px) and (max-width:1280px){
+    body{
+        width: 100%;
+    }
+}
+@media(min-width:1025px) and (max-width:1440px){
+    body{
+        width: 100%;
+    }
+}
+@media(min-width:1441px) and (max-width:1920px){
+    body{
+        width: 100%;
+    }
+}
