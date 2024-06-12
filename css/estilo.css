@@ -5,6 +5,9 @@
 
 @import url('https://fonts.cdnfonts.com/css/corporative-alt?styles=53252,53268');
 
+html{
+    scroll-behavior: smooth;
+}
 
 body{
     display: flex;
@@ -47,8 +50,9 @@ nav a{
     font-weight: 545;
     margin: 16px;
     padding-bottom: 0.55em;
-    transition: 0.3s;
+    transition: 0.3s color,0.3s border-bottom;
 }
+
 
 nav a:hover{
     color: #ff8a00;
@@ -88,13 +92,18 @@ nav a:hover{
     padding-bottom: 22px;
 }
 
-.logos img{
+.logos i{
     color: #ffffff;
     margin: 7px;
-    width: 30px;
-    height: 30px;
+    padding-top: 7px;
+    font-size: 25px;
+    transition: 0.3s color;
 }
 
+.logos i:hover{
+    color: #555555;
+
+}
 
 /* //////////////ABOUTME////////////////////////////////////////// */
 .about{
@@ -126,7 +135,8 @@ nav a:hover{
     font-family: ;
 }
 
-.about div .contenido button{
+
+.about a{
     text-decoration: none;
     background-color: #ff8a00;
     color: #F2F2F2;
@@ -135,7 +145,13 @@ nav a:hover{
     border-radius: 2px;
     font-weight: bold;
     font-size: 0.9em;
+    transition: 0.3s color;
 }
+
+.about a:hover{
+    color: #555555;
+}
+
 .about div img{
     height: 500px;
     filter: grayscale(100%);
@@ -207,6 +223,7 @@ nav a:hover{
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    padding: 50px 0 50px 0;
 }
 
 .projects h2{
@@ -224,10 +241,14 @@ nav a:hover{
 .projects .item img{
     margin: 6px;
     border-radius: 3px;
+    height: 300px;
+    width: 300px;
+    transition: 0.3s filter;
 }
 
 .projects .item img:hover{
     filter: grayscale(100%);
+    
 }
 
 /* ///////////////////SERVICES//////////////////////////////////// */
@@ -263,6 +284,12 @@ nav a:hover{
     justify-content: space-between;
     align-items: center;
     
+}
+
+.services i{
+    color: #ff8a00;
+    font-size: 60px;
+    padding-top: 100px;
 }
 
 .services .it{
@@ -341,6 +368,7 @@ nav a:hover{
     height: 200px;
     margin-bottom: 30px;
     padding: 25px 29px 25px 21px;
+    resize: none;
 }
 
 .contact .fin{
@@ -351,12 +379,22 @@ nav a:hover{
     font-weight: bold;
     border: none;
     font-size: 0.98em;
+    transition: 0.3s color;
+}
+
+.contact .fin:hover{
+    color: #555555;
 }
 
 a i{
     font-size: 30px;
     color: #555555;
     margin: 10px;
+    transition: 0.3s color;
+}
+
+a i:hover{
+    color: #ff8a00;
 }
 
 /* /////////////FOOTER//////////////////////////////////////////// */
