@@ -1,7 +1,7 @@
 **Este es mi trabajo práctico final 1 del curso desarrollo web full stack utn.**
 El portfolio que elegí es el siguiente: https://cdn.dribbble.com/userupload/7689971/file/original-36cbcb772203579095b066052b7cb01e.png?resize=1600x3660
 CONSIDERACIONES:
-1) El portfolio elegido no contaba con las secciones HABILIDADES y PROYECTOS, por lo cual le agregué estas dos secciones al portfolio intenando seguir con el mismo diseño del mismo.
+1) El portfolio elegido no contaba con las secciones HABILIDADES y PROYECTOS, por lo cual le agregué estas dos secciones al portfolio intenando seguir con el mismo diseño del original.
 2) En la seccion de PROYECTOS deje imagenes en blanco para referenciar futuros proyectos a desarrollar.
 3) No pude encontrar una fuente que sea identica a la utilizada en el modelo original para los textos tipo p, por lo que utilicé una similar.
 4) El DISEÑO del portfolio en cuanto a imagenes de fondo, por tema de evitar "copyright" y al ser un diseño propio decidi utilizar fotos PROPIAS. Esa es la razón de no utilizar exactamente la misma foto(aunque esten alteradas por un filtro)
